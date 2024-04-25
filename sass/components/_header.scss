@@ -1,0 +1,24 @@
+.nav-list{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding-left: 0;
+    padding-top: 71px;
+    padding-bottom: 92px;
+}
+
+.item-link{
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.66px;
+    text-align: left;
+    color: $header-link;
+    &:hover{
+        color: $active;
+    }
+}
+
+.active{
+    color: $active;
+}

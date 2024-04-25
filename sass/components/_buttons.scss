@@ -1,0 +1,27 @@
+.center-button{
+    text-align: center;
+}
+
+.load-more-button{
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.66px;
+    text-align: left;
+    color: $description;
+    margin-top: 90px;
+    margin-bottom: 66px;
+    padding: 20px 48px;
+    background-color: inherit;
+    border: 1px solid $description;
+    border-radius: 2px;
+    transition: scale 500ms;
+    &:hover{
+        background-color: rgb(251, 249, 249);
+        scale: 1.1;
+        &:active{
+            background-color: rgb(237, 237, 237);
+            scale: 0.9;
+        }
+    }
+}
