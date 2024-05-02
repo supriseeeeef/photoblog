@@ -145,14 +145,17 @@ summary {
 }
 
 .item-link {
+.nav-list__link {
   font-family: Playfair Display;
   font-size: 14px;
   font-weight: 400;
   line-height: 18.66px;
   text-align: left;
   color: #7D7D7D;
+  -webkit-transition: color 1000ms;
+  transition: color 1000ms;
 }
-.item-link:hover {
+.nav-list__link:hover {
   color: #03A9F4;
 }
 
@@ -175,11 +178,11 @@ summary {
   padding-left: 0;
 }
 
-.card-item {
+.card-list__item {
   width: 420px;
 }
 
-.category {
+.card-list__category {
   font-family: Ubuntu;
   font-size: 14px;
   font-weight: 300;
@@ -189,7 +192,7 @@ summary {
   margin-top: 62px;
 }
 
-.title {
+.card-list__title {
   font-family: Playfair Display;
   font-size: 30px;
   font-weight: 400;
@@ -198,7 +201,7 @@ summary {
   color: #626262;
 }
 
-.decription {
+.card-list__description {
   font-family: Playfair Display;
   font-size: 14px;
   font-weight: 400;
@@ -211,7 +214,7 @@ summary {
   text-align: center;
 }
 
-.load-more-button {
+.center-button__button {
   font-family: Playfair Display;
   font-size: 14px;
   font-weight: 400;
@@ -227,11 +230,11 @@ summary {
   -webkit-transition: scale 500ms;
   transition: scale 500ms;
 }
-.load-more-button:hover {
+.center-button__button:hover {
   background-color: rgb(251, 249, 249);
   scale: 1.1;
 }
-.load-more-button:hover:active {
+.center-button__button:hover:active {
   background-color: rgb(237, 237, 237);
   scale: 0.9;
 }/*# sourceMappingURL=main.css.map */

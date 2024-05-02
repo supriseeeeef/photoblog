@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PhotoBlog</title>
     <link rel="stylesheet" href="css/main.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -13,10 +14,10 @@
         <div class="container">
             <nav class="nav-bar">
                 <ul class="nav-list">
-                    <li class="nav-list-item"><a href="#" class="item-link active">LIFESTYLE</a></li>
-                    <li class="nav-list-item"><a href="#" class="item-link">PHOTODIARY</a></li>
-                    <li class="nav-list-item"><a href="#" class="item-link">MUSIC</a></li>
-                    <li class="nav-list-item"><a href="#" class="item-link">TRAVEL</a></li>
+                    <li class="nav-list__item" data-aos="fade-up-right" data-aos-duration="1200"><a href="#" class="nav-list__link active">LIFESTYLE</a></li>
+                    <li class="nav-list__item" data-aos="fade-up" data-aos-duration="1200"><a href="#" class="nav-list__link">PHOTODIARY</a></li>
+                    <li class="nav-list__item" data-aos="fade-up" data-aos-duration="1200"><a href="#" class="nav-list__link">MUSIC</a></li>
+                    <li class="nav-list__item" data-aos="fade-up-left" data-aos-duration="1200"><a href="#" class="nav-list__link">TRAVEL</a></li>
                 </ul>
             </nav>
         </div>
@@ -24,60 +25,69 @@
     <main>
         <div class="container">
             <ul class="card-list">
-                <li class="card-item">
+                <li class="card-list__item" data-aos="fade-up" data-aos-duration="1200">
                     <img src="photo/1.jpg" alt="concert">
-                    <p class="category">LIFESTYLE</p>
-                    <h3 class="title">More than just a music festival</h3>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p class="card-list__category">LIFESTYLE</p>
+                    <h3 class="card-list__title">More than just a music festival</h3>
+                    <p class="card-list__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                         exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                 </li>
-                <li class="card-item">
+                <li class="card-list__item" data-aos="fade-up" data-aos-duration="1200">
                     <img src="photo/2.jpg" alt="coffee">
-                    <p class="category">LIFESTYLE</p>
-                    <h3 class="title">Life tastes better with coffee</h3>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p class="card-list__category">LIFESTYLE</p>
+                    <h3 class="card-list__title">Life tastes better with coffee</h3>
+                    <p class="card-list__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                         exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                 </li>
-                <li class="card-item">
+                <li class="card-list__item" data-aos="fade-up" data-aos-duration="1200">
                     <img src="photo/3.jpg" alt="happy friendly">
-                    <p class="category">PHOTODAIRY</p>
-                    <h3 class="title">American dream</h3>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p class="card-list__category">PHOTODAIRY</p>
+                    <h3 class="card-list__title">American dream</h3>
+                    <p class="card-list__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                         exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                 </li>
-                <li class="card-item">
+                <li class="card-list__item" data-aos="fade-up" data-aos-duration="1200">
                     <img src="photo/4.jpg" alt="#">
-                    <p class="category">PHOTODAIRY</p>
-                    <h3 class="title">A day exploring the Alps</h3>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p class="card-list__category">PHOTODAIRY</p>
+                    <h3 class="card-list__title">A day exploring the Alps</h3>
+                    <p class="card-list__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                         exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                 </li>
-                <li class="card-item">
+                <li class="card-list__item" data-aos="fade-up" data-aos-duration="1200">
                     <img src="photo/5.jpg" alt="#">
-                    <p class="category">LIFESTYLE</p>
-                    <h3 class="title">Top 10 songs for running</h3>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p class="card-list__category">LIFESTYLE</p>
+                    <h3 class="card-list__title">Top 10 songs for running</h3>
+                    <p class="card-list__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                         exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                 </li>
-                <li class="card-item">
+                <li class="card-list__item" data-aos="fade-up" data-aos-duration="1200">
                     <img src="photo/6.jpg" alt="#">
-                    <p class="category">LIFESTYLE</spanp>
-                    <h3 class="title">Cold winter days</h3>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <p class="card-list__category">LIFESTYLE</spanp>
+                    <h3 class="card-list__title">Cold winter days</h3>
+                    <p class="card-list__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                         exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                 </li>
             </ul>
-            <div class="center-button">
-                <button class="load-more-button">Load more</button>
+            <div class="center-button" data-aos="fade-down" data-aos-duration="1200">
+                <button class="center-button__button">Load more</button>
             </div>
         </div>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
-
 </html>

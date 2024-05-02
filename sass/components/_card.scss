@@ -5,11 +5,11 @@
     padding-left: 0;
 }
 
-.card-item{
+.card-list__item{
     width: 420px;
 }
 
-.category{
+.card-list__category{
     font-family: Ubuntu;
     font-size: 14px;
     font-weight: 300;
@@ -19,7 +19,7 @@
     margin-top: 62px;
 }
 
-.title{
+.card-list__title{
     font-family: Playfair Display;
     font-size: 30px;
     font-weight: 400;
@@ -28,7 +28,7 @@
     color: $description;
 }
 
-.decription{
+.card-list__description{
     font-family: Playfair Display;
     font-size: 14px;
     font-weight: 400;
